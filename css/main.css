@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bod {
+  background: linear-gradient(180deg, #2C2C2C 0%, #333 100%);
+  width: 564px;
+  height: 1222px;
+}
+.bod header {
+  width: 498px;
+  height: 196px;
+}
+.bod header .head {
+  color: white;
+  padding-top: 26px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.bod header .head p {
+  font-size: 24px;
+  flex: 1;
+}
+.bod header .head .fa-wifi {
+  width: 20px;
+  height: 15px;
+}
+.bod header .head .fa-battery-full {
+  width: 34px;
+  height: 17px;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+.bod header .top-nav {
+  color: #B5B5B5;
+  padding-top: 49px;
+  padding-left: 42px;
+  display: flex;
+  font-size: 20px;
+}
+.bod header .top-nav .fa-align-left {
+  padding-right: 176px;
+}
+.bod header .top-nav p {
+  padding-right: 121px;
+}
+.bod header .top-nav .fa-bell {
+  padding-right: 34px;
+}
+.bod header .bottom-nav {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.bod header .bottom-nav .b-first {
+  color: #AAAAAA;
+  padding: 54px 110px 18px 104px;
+}
+.bod header .bottom-nav .b-second {
+  color: #DDDDDD;
+  padding: 54px 50px 18px 50px;
+  border-bottom: 4px solid #FC3880;
+}
+.bod .container {
+  width: 564px;
+  height: 824px;
+  background: linear-gradient(180deg, #1D1D1D 0%, #212121 100%);
+  margin-top: 35px;
+  padding: 22px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 255);
+}
+.bod .container .nature {
+  width: 513px;
+  height: 201px;
+  border-radius: 25px;
+  background: linear-gradient(81deg, rgba(222, 86, 160, 0.9) 28.92%, rgba(238, 138, 114, 0.9) 74.51%), url(<path-to-image>), lightgray -0.459px -3.006px/121.053% 214.099% no-repeat;
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: column;
+}
+.bod .container .nature .fa-tree {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 44px;
+  flex: 1;
+}
+.bod .container .c-left {
+  flex-direction: column;
+}
+.bod .container .cultural {
+  width: 247px;
+  height: 220px;
+  border-radius: 25px;
+  background: linear-gradient(232deg, rgba(206, 72, 141, 0.85) -12.66%, rgba(171, 68, 185, 0.85) 115.12%), url(<path-to-image>), lightgray -106.444px -0.22px/221.457% 182.273% no-repeat;
+  margin-bottom: 20px;
+  margin-right: 19px;
+  display: flex;
+  flex-direction: column;
+}
+.bod .container .cultural .fa-masks-theater {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 44px;
+  flex: 1;
+}
+.bod .container .modern {
+  width: 247px;
+  height: 306px;
+  border-radius: 25px;
+  background: linear-gradient(212deg, rgba(233, 108, 150, 0.85) 10.05%, rgba(159, 64, 184, 0.85) 93.06%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.bod .container .modern .fa-city {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 44px;
+  flex: 1;
+}
+.bod .container .c-right {
+  flex-direction: column;
+}
+.bod .container .popularity {
+  width: 247px;
+  height: 317px;
+  border-radius: 25px;
+  background: linear-gradient(211deg, rgba(196, 92, 207, 0.85) 9.16%, rgba(102, 126, 223, 0.85) 95.41%), url(<path-to-image>), lightgray -198.604px -0.603px/192.335% 104.472% no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.bod .container .popularity .fa-church {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 44px;
+  flex: 1;
+}
+.bod .container .sun {
+  width: 247px;
+  height: 232px;
+  border-radius: 25px;
+  background: linear-gradient(229deg, rgba(188, 82, 211, 0.85) -7.71%, rgba(96, 101, 204, 0.85) 108.79%), url(<path-to-image>), lightgray -28.034px -5.386px/262.821% 139.224% no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.bod .container .sun .fa-sun {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 44px;
+  flex: 1;
+}
+.bod .container p {
+  padding-left: 44px;
+}
+.bod .container .p-big {
+  font-size: 22px;
+}
+.bod .container .p-small {
+  font-size: 14px;
+  padding-bottom: 30px;
+  color: rgba(255, 255, 255, 0.25);
+}
+.bod footer {
+  font-size: 45px;
+  color: #666;
+  padding: 44px 46px 60px 54px;
+}
+.bod footer .fa-plane-departure {
+  padding-right: 47px;
+}
+.bod footer .fa-compass {
+  padding-right: 40px;
+  background-image: linear-gradient(180deg, #EA5B6C 16.61%, #D53A70 91.31%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bod footer .fa-bookmark {
+  padding-right: 55px;
+}
+.bod footer .fa-comments {
+  padding-right: 40px;
+}/*# sourceMappingURL=main.css.map */
